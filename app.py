@@ -2,9 +2,7 @@ from flask import Flask, session, jsonify, request
 import pandas as pd
 import numpy as np
 import pickle
-#import create_prediction_model
 import diagnostics
-#import predict_exited_from_saved_model
 import json
 import os
 import scoring
@@ -18,7 +16,6 @@ with open('config.json','r') as f:
 
 dataset_csv_path = os.path.join(config['output_folder_path']) 
 
-#prediction_model = None
 
 # Prediction endpoint
 @app.route("/prediction", methods=['POST'])

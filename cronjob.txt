@@ -1,0 +1,1 @@
+*/10 * * * *  /Users/muzair/miniconda3/envs/mlops_p4_env/bin/python /Users/muzair/mlops_p4/fullprocess.py
